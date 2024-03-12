@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24490" started-at="2023-04-26T04:37:11Z" finished-at="2023-04-26T04:37:35Z">
+    <groups>
+      <group name="ErrorvalidationsTest">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="LoginErrorValidation" class="SimpleShopping.ShoppingCart.ErrorValidations"/>
+        <method signature="ErrorValidations.ProductErrorValidation()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="ProductErrorValidation" class="SimpleShopping.ShoppingCart.ErrorValidations"/>
+      </group> <!-- ErrorvalidationsTest -->
+    </groups>
+    <test name="OrderProduct" duration-ms="5" started-at="2023-04-26T04:37:11Z" finished-at="2023-04-26T04:37:11Z">
+    </test> <!-- OrderProduct -->
+    <test name="Error Validations Testcases" duration-ms="23219" started-at="2023-04-26T04:37:12Z" finished-at="2023-04-26T04:37:35Z">
+      <class name="SimpleShopping.ShoppingCart.ErrorValidations">
+        <test-method status="PASS" signature="LaunchSimpleShoppingApp()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="LaunchSimpleShoppingApp" is-config="true" duration-ms="11912" started-at="2023-04-26T04:37:12Z" finished-at="2023-04-26T04:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSimpleShoppingApp -->
+        <test-method status="PASS" signature="LoginErrorValidation()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="LoginErrorValidation" duration-ms="1082" started-at="2023-04-26T04:37:24Z" finished-at="2023-04-26T04:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="Close" is-config="true" duration-ms="432" started-at="2023-04-26T04:37:25Z" finished-at="2023-04-26T04:37:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method status="PASS" signature="LaunchSimpleShoppingApp()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="LaunchSimpleShoppingApp" is-config="true" duration-ms="5003" started-at="2023-04-26T04:37:26Z" finished-at="2023-04-26T04:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchSimpleShoppingApp -->
+        <test-method status="PASS" signature="ProductErrorValidation()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="ProductErrorValidation" duration-ms="4352" started-at="2023-04-26T04:37:31Z" finished-at="2023-04-26T04:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method status="PASS" signature="Close()[pri:0, instance:SimpleShopping.ShoppingCart.ErrorValidations@6d3a388c]" name="Close" is-config="true" duration-ms="344" started-at="2023-04-26T04:37:35Z" finished-at="2023-04-26T04:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- SimpleShopping.ShoppingCart.ErrorValidations -->
+    </test> <!-- Error Validations Testcases -->
+  </suite> <!-- Suite -->
+</testng-results>
